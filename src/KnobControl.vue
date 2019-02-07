@@ -93,6 +93,14 @@
                 type: Function,
                 default: (v) => v
             },
+            'currentTime': {
+                type: String,
+                default: '00:00'
+            },
+            'duration': {
+            type: String,
+            default: '00:00'
+            }
         },
         computed: {
             rangePath () {
